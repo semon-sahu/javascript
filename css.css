@@ -1,0 +1,10 @@
+#d1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+#d2{
+    height: 200px;
+        width: 200px;
+    background-image: url('download.jpg');
+}

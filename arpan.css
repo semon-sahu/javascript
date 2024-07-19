@@ -1,0 +1,116 @@
+/* html
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+.bg_heart{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("download.jpg");
+
+    background-size: cover;
+    z-index: -1;
+    animation: untoldcoding 55s infinite ease-in-out;
+}
+
+@keyframes untoldcoding{
+    0% {
+        background-image: url("img-world-of-adventure-spider.jpg");
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url("download 3.jpg");
+        background-size: cover;
+
+    }
+
+    50% {
+        background-image: url("images.jpg");
+        background-size: cover;
+
+    }
+
+    75% {
+        background-image: url("images4.jpg");
+        background-size: cover;
+
+    }
+
+    100% {
+        background-image: url('img-world-of-adventure-spider.jpg');
+        background-size: cover;
+
+    }
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+} */
+ html,
+ body {
+     margin: 0;
+     height: 100%;
+     overflow: hidden;
+     /* Prevent scrollbars due to animation */
+ }
+
+ .bg_heart {
+     position: absolute;
+     /* Position relative to the viewport */
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     z-index: -1;
+     animation: untoldcoding 55s infinite ease-in-out;
+ }
+
+ @keyframes untoldcoding {
+     0% {
+         background-image: url("img-world-of-adventure-spider.jpg");
+     }
+
+     25% {
+         background-image: url("download 3.jpg");
+     }
+
+     50% {
+         background-image: url("images.jpg");
+     }
+
+     75% {
+         background-image: url("images4.jpg");
+     }
+
+     100% {
+         background-image: url('img-world-of-adventure-spider.jpg');
+     }
+ }
+
+ .container {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     /* Center content within the container */
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: cursive;
+ }
